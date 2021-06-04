@@ -1,0 +1,187 @@
+.App {
+	background: rgb(34, 160, 195);
+	background: linear-gradient(
+		90deg,
+		rgba(34, 160, 195, 1) 0%,
+		rgba(253, 187, 45, 1) 100%
+	);
+}
+h3 {
+	color: white;
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+
+#form {
+	flex-flow: row wrap;
+	margin-top: 1vh;
+	width: 100vw;
+	text-align: center;
+	display: inline-block;
+	border: 0px solid black;
+}
+
+.searchBttn {
+	border: 1px solid #fff;
+	background-color: #ffffff;
+	color: black;
+	text-decoration: black;
+	padding: 15px 10px;
+	border-radius: 50px;
+	width: 5vw;
+	margin-left: 10px;
+	outline: none;
+}
+.searchBttn:focus,
+.input:focus {
+	outline: none;
+}
+
+.input {
+	border: 1px solid #fff;
+	background: #ffffff;
+	padding: 15px 30px;
+	color: #000;
+	border: none;
+	border-radius: 20px;
+	width: 40vw;
+	font-size: 16px;
+}
+::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 16px;
+}
+
+.card {
+	/* margin: 5px; */
+	width: 250px;
+	/* height: 300px; */
+	background-color: rgba(255, 255, 255, 0.5);
+	min-height: 489px;
+}
+
+.card img {
+	width: 100%;
+	/* height: 100%; */
+	max-height: 215px;
+	min-height: 215px;
+}
+
+.card > .card-body {
+	height: 100%;
+	overflow: auto;
+}
+.links {
+	float: right;
+	font-size: medium;
+	margin: 21px 25px !important;
+	color: #ffffff;
+	margin-left: 10rem;
+}
+
+.linkLogo {
+	margin-left: 0rem;
+}
+.imgLogo {
+	float: right;
+	width: 160px;
+	border-radius: 50px;
+}
+*:focus {
+	outline: none;
+}
+.Butn {
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 50px;
+	width: 200px;
+	height: 50px;
+	margin-top: 80px;
+}
+.Bun {
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 50px;
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.logLink {
+	color: white;
+}
+
+.signUp {
+	text-align: center;
+	border: 1px solid white;
+	padding: 40px;
+	margin-top: 30px;
+}
+.login {
+	text-align: center;
+	border: 1px solid white;
+	padding: 80px;
+	margin-top: 30px;
+}
+.card {
+	margin: 10px;
+	height: auto;
+
+	border-radius: 12px;
+	overflow: hidden;
+}
+.flex-c {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.Label {
+	color: white;
+	text-decoration: underline;
+	font-size: 35px;
+	text-shadow: 4px 5px 6px #ababab;
+}
+.forgot-password {
+	margin-top: 10px;
+	color: yellow;
+}
+
+.card-footer p {
+	color: black !important;
+}
+.Navbar {
+	background-color: rgba(34, 160, 195, 0.7);
+	box-shadow: -5px 0 30px -10px black;
+}
+.calander-picker {
+	width: 200px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 20px;
+	border: none;
+	font-size: 30px;
+}
+.c1 {
+	text-align: center;
+}
+.grou {
+	text-align: center;
+	margin-top: 50px;
+	padding: 50px;
+}
+.form-control {
+	border: 1px solid #fff;
+	background: #ffffff;
+	padding: 15px 30px;
+	color: #000;
+	border: none;
+	border-radius: 20px;
+	width: 54pc;
+	height: 3pc;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 6pc;
+}
