@@ -1,5 +1,5 @@
 import React, {useEffect, useContext} from "react";
-import {BrowserRouter, Link, Route, Switch, useHistory} from "react-router-dom";
+import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
 import {Navbar, Nav} from "react-bootstrap";
 import "../App.css";
 import logo from "../Images/logo.svg";
@@ -10,13 +10,11 @@ import {ApiContext} from "./ApiContext";
 
 const NavBarComponent = ({valid, setValid, localStore, setLocalStore}) => {
 	const {truevalue, settruevalue} = useContext(ApiContext);
-	const history = useHistory();
 	const logout = () => {
 		setLocalStore(!localStore);
 		setValid(!valid);
 		// localStorage.clear();
 		settruevalue(!truevalue);
-		// history.push("/login");
 	};
 	return (
 		<div className="Navbar">
@@ -36,6 +34,9 @@ const NavBarComponent = ({valid, setValid, localStore, setLocalStore}) => {
 									LOGOUT
 								</a>
 
+								<Link className="links" to="/Favorites">
+									Favourites
+								</Link>
 								<Link className="links" to="/DateFilter">
 									Calender Search
 								</Link>
@@ -53,6 +54,8 @@ const NavBarComponent = ({valid, setValid, localStore, setLocalStore}) => {
 								</Link>
 							</div>
 						)}
+
+						
 					</Nav>
 				</Navbar>
 			</div>
